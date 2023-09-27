@@ -10,6 +10,8 @@ import wind_icon from '../Assets/wind.png';
 import humidity_icon from '../Assets/humidity.png';
 
 const WeatherApp = () => {
+  let api_key = 'YOUR_API_KEY';
+
   return (
     <div className="container">
       <div className="top-bar">
